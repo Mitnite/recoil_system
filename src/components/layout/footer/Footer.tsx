@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 
 const Footer: FC = () => {
   return (
-      <div className={styles.Footer}>
+      <div className={styles.Footer} id={'footer'}>
 
       </div>
   )

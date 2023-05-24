@@ -1,9 +1,11 @@
 .Header{
     padding: 10px 60px;
-    background-color: cornflowerblue;
+    background-color: #FFC000;
     width: 100%;
     position: fixed;
     font-size: 18px;
+    z-index: 1000;
+    top: 0;
 }
 
 .Container{
@@ -19,13 +21,16 @@
     justify-content: space-between;
     align-items: center;
     width: 220px;
-    color: rgb(241, 241, 241);
+    color: white;
+    font-weight: 700;
 }
 
-.Contacts > div{
+.Contacts > a{
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
-.Contacts > div:hover{
+.Contacts > a:hover{
     cursor: pointer;
     color: rgba(241, 241, 241, 0.71);
 }
