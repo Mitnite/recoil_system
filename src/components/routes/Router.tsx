@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 
-import {Routes, Route, BrowserRouter} from 'react-router-dom';
+import {Routes, Route, HashRouter} from 'react-router-dom';
 
 import {routes} from './dataRoutes'
 import Layout from "../layout/Layout";
@@ -10,7 +10,7 @@ const Router: FC = () => {
 
   return (
       <>
-        <BrowserRouter>
+        <HashRouter>
           <Layout>
             <Routes>
               {routes.map(route => (
@@ -19,7 +19,7 @@ const Router: FC = () => {
               )}
             </Routes>
           </Layout>
-        </BrowserRouter>
+        </HashRouter>
       </>
   )
 }
