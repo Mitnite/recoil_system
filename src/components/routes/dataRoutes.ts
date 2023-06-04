@@ -3,18 +3,18 @@ import AboutUs from "../pages/about-us/AboutUs";
 
 export const routes = [
   {
-    path: '/',
+    path: '/recoil_system',
     component: Home,
     auth: true
   },
-  {
-    path: '/about-us',
-    component: AboutUs,
+/*  {
+    path: '/#AboutUs',
+    component: Home,
     auth: true
-  },
-  {
+  },*/
+/*  {
     path: '/contacts',
     component: Home,
     auth: true
-  }
+  }*/
 ]

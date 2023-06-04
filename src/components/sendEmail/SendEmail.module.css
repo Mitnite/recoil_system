@@ -8,8 +8,8 @@
     z-index: 162;
     background: #FFFFFF;
     border-radius: 10px;
-    height: 231px;
-    width: 500px;
+    height: 285px;
+    width: 550px;
     padding: 20px 20px 25px 30px;
 }
 
@@ -38,5 +38,14 @@
     position: absolute;
     bottom: 10%;
 
+}
+
+.Label {
+    font-family: 'Bellota Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: left;
 }
 

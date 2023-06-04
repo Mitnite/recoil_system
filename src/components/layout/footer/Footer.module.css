@@ -2,4 +2,7 @@
     background-color: black;
     width: 100%;
     height: 75px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }

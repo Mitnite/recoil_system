@@ -1,5 +1,5 @@
 import React, {FC, useState} from "react";
-import Alert from "./Alert";
+import SendEmail from "../../sendEmail/SendEmail";
 import MainImg from '../../../image/Main.jpg'
 import Front from '../../../image/FrontView.jpg'
 import Rear from '../../../image/RearView.jpg'
@@ -10,7 +10,7 @@ const Home: FC = () => {
   const [showAlert, setShowAlert] = useState(false)
 
   return (
-      <div className="container text-center" style={{margin: '100px auto'}}>
+      <div className="container text-center" style={{marginTop: 100, marginBottom: 25}}>
 
 
         <div className="row justify-content-center align-items-center">
@@ -53,7 +53,7 @@ const Home: FC = () => {
             <h2>Устройство для производства филамента ReCoil System</h2>
             <div style={{marginTop: 50, fontSize: 24}}>
               <span>89 990 руб.</span>
-              <button type="button" onClick={() => setShowAlert(true)} style={{width: 150, marginLeft: 15}}
+              <button type="button" onClick={() => setShowAlert(true)} style={{width: 175, marginLeft: 25, fontSize: 18}}
                       className="btn btn-success">Купить
               </button>
             </div>
@@ -61,7 +61,7 @@ const Home: FC = () => {
         </div>
 
         <div className="row justify-content-center align-items-center" style={{marginTop: 50, textAlign: 'justify'}}>
-          <div className="col-6">
+          <div className="col-8" style={{fontSize: 20}}>
             <p>Устройство ReCoil System предназначен для производства пластикового филамента, используемого при FDM
               печати. ReCoil System способен производить нить из пластиковых гранул с максимальной температурой
               плавления до 300 градусов. Экструзия материал осуществляется при помощи вращения шнека и двигателя,
@@ -85,7 +85,7 @@ const Home: FC = () => {
           </div>
         </div>
         {showAlert && <>
-          <Alert refuse={() => setShowAlert(false)} confirm={() => setShowAlert(false)}/>
+          <SendEmail confirm={() => setShowAlert(false)}/>
         </>}
       </div>
   )
