@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/recoil_system/static/css/main.50bd2de0.css",
-    "main.js": "/recoil_system/static/js/main.e3c05e02.js",
+    "main.css": "/recoil_system/static/css/main.a8b4d8bc.css",
+    "main.js": "/recoil_system/static/js/main.9884e4a4.js",
     "static/media/Main.jpg": "/recoil_system/static/media/Main.44b2eb3c222d67337dec.jpg",
     "static/media/RearView.jpg": "/recoil_system/static/media/RearView.3aa3d78d8d78da14145e.jpg",
     "static/media/FrontView.jpg": "/recoil_system/static/media/FrontView.76531d463860d6698cae.jpg",
     "static/media/logo.svg": "/recoil_system/static/media/logo.1d3a0eb94e4eb8f8155ec8f988ed9a6e.svg",
     "index.html": "/recoil_system/index.html",
-    "main.50bd2de0.css.map": "/recoil_system/static/css/main.50bd2de0.css.map",
-    "main.e3c05e02.js.map": "/recoil_system/static/js/main.e3c05e02.js.map"
+    "main.a8b4d8bc.css.map": "/recoil_system/static/css/main.a8b4d8bc.css.map",
+    "main.9884e4a4.js.map": "/recoil_system/static/js/main.9884e4a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.50bd2de0.css",
-    "static/js/main.e3c05e02.js"
+    "static/css/main.a8b4d8bc.css",
+    "static/js/main.9884e4a4.js"
   ]
 }
