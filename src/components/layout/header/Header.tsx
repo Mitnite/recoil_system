@@ -14,7 +14,9 @@ const Header: FC = () => {
           </div>
 
           <div className={styles.Contacts}>
+{/*
             <div onClick={() => window.scrollTo(1000, 1000)} style={{cursor: "pointer"}}>О нас</div>
+*/}
             <div onClick={() => window.scrollTo(1000, 1000)} style={{cursor: "pointer"}} >Связаться с нами</div>
 
           </div>

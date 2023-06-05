@@ -46,3 +46,20 @@
     align-items: center;
 
 }
+
+@media (max-width: 800px) {
+    .Header{
+        padding: 10px 30px;
+        font-size: 17px;
+    }
+
+}
+@media (max-width: 550px) {
+    .Header{
+        padding: 10px 10px;
+        font-size: 16px;
+    }
+    .Contacts{
+        width: 180px;
+    }
+}

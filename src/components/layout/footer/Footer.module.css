@@ -5,4 +5,24 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+@media (max-width: 950px) {
+    .Footer{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 850px) {
+    .Footer{
+        font-size: 15px;
+    }
+}
+@media (max-width: 550px) {
+    .Footer{
+        font-size: 15px;
+    }
 }
