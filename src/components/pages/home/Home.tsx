@@ -73,7 +73,7 @@ const Home: FC = () => {
               <span>89 990 руб.</span>
               <button type="button" onClick={() => {
                 // @ts-ignore
-                ym(93835150, 'reachGoal', 'btn-buy')
+                ym(93847649,'reachGoal','btn-buy')
                 setShowAlert(true)
               }}
                       style={{width: 175, marginLeft: 25, fontSize: 18}}
@@ -133,7 +133,7 @@ const Home: FC = () => {
                 <div style={{marginTop: 15}}>
                   <button type="button" onClick={() => {
                     // @ts-ignore
-                    ym(93835150, 'reachGoal', 'btn-plastic')
+                    ym(93847649,'reachGoal','btn-plastic')
                     setShowAlert(true)
                   }}
                           style={{width: 175, fontSize: 18}}
